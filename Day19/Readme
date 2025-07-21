@@ -1,0 +1,4 @@
+df.select_dtypes(include='number').corr()['Survived']--->shows how strongly each numeric column 
+in the DataFrame is linearly related to the 'Survived' column. 
+Values range from -1 (strong negative) to +1 (strong positive); 
+closer to 0 means weak or no correlation.
